@@ -19,6 +19,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AboutApp"
+            android:label="@string/title_activity_about_app"
+            android:parentActivityName="com.example.id_admchaset.kajisystem.MainActivity" >
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.id_admchaset.kajisystem.MainActivity" />
+        </activity>
+        <activity android:name=".AboutUstad"
+            android:label="@string/title_activity_about_ustad"
+            android:parentActivityName="com.example.id_admchaset.kajisystem.MainActivity" >
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.id_admchaset.kajisystem.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
