@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
 
         //Adding adapter to pager
         mViewPager.setAdapter(adapter);
-
+        //test
         //Adding onTabSelectedListener to swipe views
         //tabLayout.setOnTabSelectedListener(this);
         //tabLayout.addOnTabSelectedListener(this);
