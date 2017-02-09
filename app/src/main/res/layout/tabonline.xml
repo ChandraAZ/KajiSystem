@@ -70,7 +70,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Title"
-            android:textAlignment="viewStart"
             android:textStyle="bold"
             app:layout_constraintLeft_toRightOf="@+id/tvNo"
             app:layout_constraintTop_toTopOf="@+id/constraintLayout2"
@@ -106,7 +105,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2:12:42"
-            android:textAlignment="textEnd"
             android:textSize="12sp"
             app:layout_constraintRight_toRightOf="@+id/constraintLayout2"
             app:layout_constraintTop_toTopOf="@+id/constraintLayout2"
@@ -129,5 +127,20 @@
             tools:ignore="ContentDescription"
             tools:layout_editor_absoluteY="55dp"
             tools:layout_editor_absoluteX="549dp" />
+
+        <TextView
+            android:id="@+id/tvTestRespon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+            tools:ignore="HardcodedText" />
     </android.support.constraint.ConstraintLayout>
 </RelativeLayout>

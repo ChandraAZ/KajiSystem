@@ -12,7 +12,7 @@ public class DBHelper extends SQLiteOpenHelper {
     //version number to upgrade database version
     //each time if you Add, Edit table, you need to change the
     //version number.
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     // Database Name
     private static final String DATABASE_NAME = "Kajian.db";
@@ -28,7 +28,7 @@ public class DBHelper extends SQLiteOpenHelper {
         String CREATE_TABLE_KAJIAN = "CREATE TABLE " + Kajian.TABLE  + "("
                 + Kajian.COL_ID  + " INTEGER PRIMARY KEY AUTOINCREMENT ,"
                 + Kajian.COL_CODE + " INTEGER, "
-                + Kajian.COL_CODEUST + "INTEGER, "
+                + Kajian.COL_CODEUST + " INTEGER, "
                 + Kajian.COL_TITLE + " TEXT, "
                 + Kajian.COL_ARTIST + " TEXT, "
                 + Kajian.COL_DESCRIPTION + " TEXT, "

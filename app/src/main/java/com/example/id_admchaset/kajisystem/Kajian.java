@@ -7,6 +7,7 @@ public class Kajian {
     // Labels table name
     public static final String TABLE = "tbKajian";
 
+    public static final String URL = "https://ia601501.us.archive.org/23/items/SyafiqV01/Syafiq-v01.json";
 
 
     // Labels Table Columns names
